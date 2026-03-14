@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow:visible;
+    background-image: linear-gradient(to bottom, #1f2b29, #82bdb4);
+}
+#blackbar {
+    background-color: black;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 5%;
+    width: 100%;
+    text-align: -webkit-center;
+}
+#titlesubscript {
+    background-color: indianred;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.emoji {
+    font-size: 32px;
+    transform: rotate(-45deg);
+    position: relative;
+    overflow: hidden;
+    right: -40%;
+    top: -100%;
+}
+.table {
+    margin-left: 10%;
+    background-color: white;
+    margin-right:10%;
+    display: table;
+    column-gap: 10%;
+    margin-top:2%;
+    border-spacing: 20px;
+    margin-right: 10%;
+    padding-right: 5%;
+}
+#tabletitle {
+    padding-left: 10px;
+    display: table-header-group;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+}
+.tableitem {
+    margin-right: 10%;
+    padding-left: 10%;
+    margin-left: 10%;
+        padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+}
+.subdivide {
+    display: table-cell;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+
+}
+.title {
+    
+    font: large;
+    
+    opacity: 1;
+    color: black;
+}
+#subscript {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: -2.5%;
+    color:black;
+    opacity: 0.95;
+}
+#mainImage {
+    width: 50%;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    opacity: 1;
+}
