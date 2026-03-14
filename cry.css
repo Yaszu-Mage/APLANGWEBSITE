@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow:visible;
+    overflow-x:hidden;
     background-image: linear-gradient(to bottom, #1f2b29, #82bdb4);
 }
 #blackbar {
@@ -37,31 +37,37 @@ body, html {
     column-gap: 10%;
     margin-top:2%;
     border-spacing: 20px;
-    margin-right: 10%;
     padding-right: 5%;
+    padding-left:5%
 }
-#tabletitle {
+.tabletitle {
     padding-left: 10px;
     display: table-header-group;
     background-color: white;
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 10%;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 500px;
 }
 .tableitem {
     margin-right: 10%;
     padding-left: 10%;
     margin-left: 10%;
-        padding-left: 10%;
-    padding-right: 10%;
-    margin-left: 10%;
-}
-.subdivide {
-    display: table-cell;
     padding-left: 10%;
     padding-right: 10%;
     margin-left: 10%;
-
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+.subdivide {
+    display: table-cell;
+    background-color: gray;
+border-color: black;
+    border-style: solid;
 }
 .title {
     
