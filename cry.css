@@ -23,13 +23,18 @@ body, html {
     margin-right: 25%;
 }
 #titlesubscript2 {
+    
     background-color: indianred;
     width: 50%;
-    height: 10%;
+    height: fit-content;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
-    overflow-y: scroll;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    
 }
 .emoji {
     font-size: 32px;
@@ -40,15 +45,27 @@ body, html {
     top: -100%;
 }
 .textbox {
-    background-color: white;
+    background-color: black;
     border-color: black;
     border-width: 3px;
     border-style: solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#chunktitle {
+    color:white;
 }
 .text {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 32px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
 }
 .bigquote {
     margin-left: 5%;
@@ -64,41 +81,50 @@ body, html {
     margin-top:2%;
     border-spacing: 20px;
     padding-right: 5%;
-    padding-left:5%
+    padding-left:5%;
+    border-radius:10px;
 }
 .tabletitle {
     padding-left: 10px;
     display: table-header-group;
-    background-color: white;
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 10%;
-    background-color: white;
+    /*background-color: white;*/
     border-color: black;
     border-style: solid;
     border-width: 500px;
 }
 .tableitem {
     margin-right: 10%;
-    padding-left: 10%;
     margin-left: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+   /* padding-left: 10%;
+    padding-right: 10%;*/
+    margin-bottom:10%;
     margin-left: 10%;
+    width:80%;
     background-color: white;
     border-color: black;
     border-style: solid;
+    border-radius: 10px;
+}
+.tableitem:hover {
+    cursor:default;
+    font-weight:bold;
+    background-color:rgb(184, 184, 184);
 }
 .subdivide {
     display: table-cell;
     background-color: gray;
 border-color: black;
     border-style: solid;
+    border-radius:10px;
+    width:15%;
 }
 .title {
     
     font: large;
-    
+
     opacity: 1;
     color: black;
 }
@@ -119,7 +145,21 @@ border-color: black;
     background-color: yellow;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px orange;
+      animation-name: myAnimation;
+     animation-duration: 4s;
+
+    /*text-shadow: 2px 2px orange;*/
+}
+@keyframes myAnimation {
+  0% {color: black;}
+  50% {color: red;}
+  75%{color: green;}
+  100%{color:black;}
+  
+}
+
+#highlight:hover {
+    background-color: orange;
 }
 .invis {
     opacity: 0;
