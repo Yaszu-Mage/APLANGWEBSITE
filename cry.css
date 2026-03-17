@@ -14,12 +14,22 @@ body, html {
     width: 100%;
     text-align: -webkit-center;
 }
+
 #titlesubscript {
     background-color: indianred;
     width: 50%;
     height: 10%;
     margin-left: 25%;
     margin-right: 25%;
+}
+#titlesubscript2 {
+    background-color: indianred;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    overflow-y: scroll;
 }
 .emoji {
     font-size: 32px;
@@ -28,6 +38,22 @@ body, html {
     overflow: hidden;
     right: -40%;
     top: -100%;
+}
+.textbox {
+    background-color: white;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.text {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 32px;
+}
+.bigquote {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 32px;
 }
 .table {
     margin-left: 10%;
@@ -88,4 +114,15 @@ border-color: black;
     border-color: black;
     border-style: solid;
     opacity: 1;
+}
+#highlight {
+    background-color: yellow;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px orange;
+}
+.invis {
+    opacity: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
